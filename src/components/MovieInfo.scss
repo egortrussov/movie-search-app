@@ -1,0 +1,67 @@
+.movie-info-top {
+    display: flex;
+}
+
+.movie-poster {
+    width: 300px;
+}
+
+.movie-poster img {
+    width: 100%;
+}
+
+.movie-summary {
+    padding: 1.3rem;
+
+    h1, h2 {
+        margin-bottom: .8rem;
+    }
+
+    h3 {
+        margin: .3rem 0;
+
+        span {
+            color: #80D39B;
+        }
+    }
+
+    .genres {
+        margin-top: 1.4rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        .genre {
+            padding: .3rem .5rem;
+            border-radius: .2rem;
+            background-color: rgba(#fff, .2);
+            border: 1px solid  rgba(#fff, .7);
+            margin: .3rem;
+        }
+    }
+}
+
+.movie-info-bottom {
+    margin-top: 2rem;
+
+    p {
+        font-size: 1.1rem;
+        letter-spacing: .5px;
+        line-height: 1.2;
+    }
+
+    h2 {
+        margin-top: 1rem;
+    }
+
+    .companies {
+        margin-top: 1.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+
+        .company-image {
+            max-width: 150px;
+            margin: 1rem;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.movie-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    margin: 1.5rem;
+    width: 200px;
+}
+
+.movie-card img {
+    max-width: 100%;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.search-box input {
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    padding: .4rem;
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search-text {
+    margin: 1.7rem 0;
+}

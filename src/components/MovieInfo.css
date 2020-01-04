@@ -1,0 +1,78 @@
+.movie-info-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.movie-poster {
+  width: 300px;
+}
+
+.movie-poster img {
+  width: 100%;
+}
+
+.movie-summary {
+  padding: 1.3rem;
+}
+
+.movie-summary h1, .movie-summary h2 {
+  margin-bottom: .8rem;
+}
+
+.movie-summary h3 {
+  margin: .3rem 0;
+}
+
+.movie-summary h3 span {
+  color: #80D39B;
+}
+
+.movie-summary .genres {
+  margin-top: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.movie-summary .genres .genre {
+  padding: .3rem .5rem;
+  border-radius: .2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  margin: .3rem;
+}
+
+.movie-info-bottom {
+  margin-top: 2rem;
+}
+
+.movie-info-bottom p {
+  font-size: 1.1rem;
+  letter-spacing: .5px;
+  line-height: 1.2;
+}
+
+.movie-info-bottom h2 {
+  margin-top: 1rem;
+}
+
+.movie-info-bottom .companies {
+  margin-top: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.movie-info-bottom .companies .company-image {
+  max-width: 150px;
+  margin: 1rem;
+}
+/*# sourceMappingURL=MovieInfo.css.map */
